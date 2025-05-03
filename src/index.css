@@ -246,7 +246,6 @@ code {
 }
 
 
-
 /* pagination */
 .pagination-container {
   display: flex;
@@ -287,6 +286,8 @@ code {
   
 }
 
+
+/* File uploader */
 .uploadfile-container {
   margin: 20px auto 40px;
   text-align: center;
@@ -299,7 +300,7 @@ code {
 
 .choosefile-box {
   font-size: 18px;
-  margin: 0 auto 10px;
+  margin-left: 5px;
   background: rgba(255, 255, 255, 0.203);
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 5px;
@@ -312,7 +313,8 @@ code {
 }
 
 .upload-box {
-  margin: 10px auto 0;
+  margin-top: 30px;
+  margin-left: 100px;
   width: 120px;
   padding: 8px;
   font-size: 15px;
@@ -338,6 +340,7 @@ code {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transform: scale(1.1); 
 }
+
 
 @media screen and (max-width: 768px) {
   .book-title {
@@ -449,3 +452,4 @@ code {
     padding: 8px;
   }
 }
+
